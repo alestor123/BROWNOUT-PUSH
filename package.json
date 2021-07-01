@@ -1,0 +1,28 @@
+{
+  "name": "brownout-push",
+  "version": "1.0.0",
+  "description": "This is a simple code for pushing your code to github while there is a github brownout",
+  "main": "App.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec",
+    "lint": "standard . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/BROWNOUT-PUSH.git"
+  },
+  "keywords": [
+    "github",
+    "brownout",
+    "git",
+    "npm",
+    "cli",
+    "auth"
+  ],
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/BROWNOUT-PUSH/issues"
+  },
+  "homepage": "https://github.com/alestor123/BROWNOUT-PUSH#readme"
+}
