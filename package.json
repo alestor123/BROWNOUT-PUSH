@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/alestor123/BROWNOUT-PUSH/issues"
   },
-  "homepage": "https://github.com/alestor123/BROWNOUT-PUSH#readme"
+  "homepage": "https://github.com/alestor123/BROWNOUT-PUSH#readme",
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^15.0.9",
+    "tap-spec": "^5.0.0"
+  }
 }

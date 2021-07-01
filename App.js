@@ -1,3 +1,4 @@
+'use strict'
 const { execSync } = require('child_process')
 module.exports = (username, repo, token, branch) => {
   if (!(username && typeof username === 'string' && username.length > 0)) throw new Error('Please enter a vaild username')

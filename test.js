@@ -7,4 +7,5 @@ tap.throws(() => bp('eded', '', process.env.GHTOKEN, 'master'), new Error('Enter
 tap.throws(() => bp('dewded', '', 1, 'master'), new Error('Enter a valid repo name'))
 tap.throws(() => bp('eded', 'BROWN-T', 1, 'master'), new Error('Enter a valid token'))
 tap.throws(() => bp('eded', 'BROWN-T', '', 'master'), new Error('Enter a valid token'))
+tap.equal(typeof bp('alestor123', 'BROWN-PUSH', process.env.GHTOKEN), 'string')
 tap.equal(typeof bp('alestor123', 'BROWN-PUSH', process.env.GHTOKEN, 'master'), 'string')
