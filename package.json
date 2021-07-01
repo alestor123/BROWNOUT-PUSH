@@ -1,7 +1,7 @@
 {
   "name": "brownout-push",
   "version": "1.0.0",
-  "description": "This is a simple code for pushing your code to github while there is a github brownout",
+  "description": "This is a simple code for pushing your code to github when there is a github brownout",
   "main": "App.js",
   "scripts": {
     "test": "standard && node test.js | tap-spec",
@@ -29,6 +29,7 @@
   "keywords": [
     "github",
     "brownout",
+    "blackout",
     "git",
     "npm",
     "cli",
