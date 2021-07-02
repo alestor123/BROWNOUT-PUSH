@@ -1,6 +1,6 @@
 const tap = require('tap')
 const bp = require('./App')
-
+// will add cli in future
 tap.throws(() => bp(1, 'BROWN-T', process.env.GHTOKEN, 'master'), new Error('Please enter a vaild username'))
 tap.throws(() => bp('', 'BROWN-T', process.env.GHTOKEN, 'master'), new Error('Please enter a vaild username'))
 tap.throws(() => bp('eded', '', process.env.GHTOKEN, 'master'), new Error('Enter a valid repo name'))
