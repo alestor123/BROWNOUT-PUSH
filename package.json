@@ -1,6 +1,6 @@
 {
   "name": "brownout-push",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple code for pushing your code to github when there is a github brownout",
   "main": "App.js",
   "scripts": {
